@@ -35,8 +35,7 @@ let prezzokm = (km * 0.21)
 
 if (eta < 18){
   prezzokm = prezzokm - (prezzokm / 100 * 20)
-}
-if (eta > 65){
+}else if (eta > 65){
   prezzokm = prezzokm - (prezzokm / 100 * 40)
 }
 
